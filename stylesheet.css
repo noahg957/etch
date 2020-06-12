@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    background-color: rgb(38, 38, 38);
+}
+.container {
+    width: 512px;
+    height: 512px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.center {
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+.square {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+}
+.square:hover {
+    background-color: aquamarine;
+}
+.filled {
+    background-color: aquamarine;
+}
+button {
+    border-radius: 4px;
+    width: 100px;
+    height: 35px;
+}
+.button {
+    margin: auto;
+    position: absolute;
+    top: 80px; left: 0; right: 0;
+    outline: none;
+    border-color: aquamarine;
+    color: rgb(38, 38, 38);
+}
+button:hover {
+    box-shadow: 0 0 1rem aquamarine;
+}
+.filler {
+    
+}
